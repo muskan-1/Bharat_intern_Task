@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatue Converter</title>
+    <link rel="stylesheet" href="temperature_converter.css">
+    <link rel="shortcut icon" href="icons8-thermometer-16.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1898472604.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Temperature Converter</h1>
+            <i class="fa-solid fa-temperature-three-quarters fa-xl"></i>
+            <form>
+                <div class="row">
+                    <input type="number" id="fahrenheit" placeholder="fahrenheit"><span class="box">&degF</span>
+                </div>
+                <div class="row">
+                    <input type="number" id="celsius" placeholder="celsius"><span class="box">&degC</span>
+                </div>
+                <div class="row">
+                    <input type="number" id="kelvin" placeholder="kelvin" class="kelvin-input"><span class="box">K</span>
+                </div>
+                <input type="reset" value="reset" class="reset">
+            </form>
+        </div>
+    </div>
+<script src="temperature_converter.js"></script>
+</body>
+</html>

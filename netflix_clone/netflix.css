@@ -1,0 +1,548 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 0 !important;
+}
+
+.main_page{
+    min-height: 92vh;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix_background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 8%;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-bottom: 0.5rem solid rgb(35,35,35);
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 3.5rem;
+    height: 80px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1.5rem;
+}
+
+#sign-in-btn{
+    border-radius: 0.25rem;
+    padding: 0.25rem 1rem;
+    background-color: #E50914;
+    border: none;
+    color: #fff;
+    height:2rem;
+    width: 5rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
+
+#sign-in-btn:hover{
+    opacity: 0.9;
+}
+
+.language{
+    border-radius: 5px;
+    background-color:transparent;
+    color: #fff;
+    padding-left: 1.5rem;
+    height: 2rem;
+    width: 7rem;
+    font-weight: 530;
+    font-size: 1rem;
+}
+
+.drop_down{
+    position: relative;
+    
+}
+
+.drop_down i{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.divider{
+    border-bottom: 0.5rem solid rgb(35,35,35);
+}
+
+.center-section{
+    text-align: center;
+    display: block;
+    margin-top: 9rem;
+}
+
+.center-section h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.center-section p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.heading h3{
+    margin-top: 0rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.get-started input{
+    height: 1.5rem;
+    width: 26%;
+    padding: 0.8rem 0rem 0.8rem 1rem;
+    background-color: rgba(35,35,35,0.7);
+    border: 0.1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    min-width: 12.5rem;
+}
+
+.get-started button{
+    border-radius: 0.25rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #E50914;
+    border: none;
+    color: #fff;
+    height:3.3rem;
+    width: auto;
+    font-weight: 550;
+    cursor: pointer;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    margin: 0rem 0rem 0rem 0.5rem;
+}
+
+.tv-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 4.5rem 0rem;
+}
+
+.tv-section div{
+    width: 75%;
+}
+
+.enjoy h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.enjoy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0rem 0rem;
+}
+
+.enjoy2{
+    position: relative;
+}
+
+.enjoy2 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.enjoy2 video{
+    position: absolute;
+    z-index: 1;
+    top: 20%;
+    right: 12%;
+    width: 75%;
+}
+
+.mobile-section{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+    margin: auto;
+    padding: 4.5rem 0rem;
+}
+
+.mobile-section .mobile{
+    width: 55%;
+    position: relative;
+} 
+
+.mobile-section .mobile .image1{
+    width: 100%;
+}
+
+.mobile-section .text{
+    width: 55%;
+}
+
+.strange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    width: 50%;
+    bottom:6%;
+    left: 22%;
+    background-color: #000;
+    position: absolute;
+    padding: 3px 9px;
+}
+
+.strange .box{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.strange .box img{
+    width: 3.5rem;
+}
+
+.strange .box h4{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.st{
+    margin: 0 0.8rem;
+}
+
+.mobile-section .text h2{
+    font-size: 2.7rem;
+    font-weight: 900;
+}
+
+.mobile-section .text p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.strange .box h5{
+    font-size: 0.9rem;
+    margin-top: 0;
+    color: #0071dc;
+}
+
+.strange .gif img{
+    width: 2.5rem;
+}
+
+.watch-everywhere{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    padding: 4.5rem 0rem;
+}
+
+.watch-everywhere div{
+    width: 75%;
+}
+
+.watch h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.watch p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 1rem 0rem 0rem;
+}
+
+.watch2{
+    position: relative;
+}
+
+.watch2 img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.watch2 video{
+    position: absolute;
+    z-index: 1;
+    width: 65%;
+    left: 18%;
+    top: 11%;
+}
+
+.child-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 75%;
+    padding: 4.5rem 0;
+}
+
+.child1 img{
+    border: 0;
+    padding-right: 0.37rem;
+    width: 100%;
+}
+
+.child1{
+    width: 100%;
+}
+
+.child2 h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.child2 p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0.8rem 0 0 0;
+}
+
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4.5rem 0;
+    width: 75%;
+    flex-direction: column;
+}
+
+.faq h2{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    padding: 0 0 1.5rem 0;
+}
+
+.all-ques{
+    width: 100%;
+}
+
+.ques{
+    background-color: rgb(35,35,35);
+    margin: 0 0 0.5rem 0;
+}
+
+.all-ques button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.all-ques button:hover{
+    background-color: rgb(59,59,59);
+}
+
+.faq-bottom{
+    padding-top: 2.5rem;
+}
+
+.faq-bottom input{
+    width: 55%;
+    padding-left: 1.5rem;
+}
+
+.faq-bottom .get-started{
+    padding-left: 2rem;
+}
+
+.footer{
+    padding: 0;
+    color: rgba(255,255,255,0.7);
+    background-color: transparent;
+}
+
+.footer-content{
+    width:75%;
+    margin: auto;
+    padding: 3rem;
+}
+
+.footer-content a{
+    color: rgba(255,255,255,0.7);
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+
+.footer-links{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: auto auto auto auto;
+    padding: 0.75rem 0rem;
+    row-gap: 0.75rem;
+    min-width: 18.375rem;
+    margin: 0;
+}
+
+.phone-no{
+    font-size: 1rem;
+    padding: 0.75rem 0rem;
+    width: 100%;
+}
+
+.links{
+    width: 100%;
+}
+
+.logo-footer{
+    font-size: 0.875rem;
+    color: rgba(255,255,255,0.7);
+
+}
+
+.logo-footer p{
+    width: 100%;
+    padding: 0.75rem 0;
+    margin: 0;
+}
+
+.footer-globe{
+    width: 100%;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem ;
+    margin: 0;
+    position: relative;
+
+}
+
+.footer-globe i{
+    position: absolute;
+    bottom: 1.25rem;
+    left: 0.5rem;
+}
+
+
+@media (max-width:600px) {
+    .main_page{
+        min-height: 80vh;
+    }
+
+    .navbar{
+        padding-top: 0.8rem;
+        margin: 0;
+        height: 3rem;
+    }   
+
+    .logo{
+        width: 100px;
+    }
+
+    .right-section{
+        gap: 0.5rem;
+    }
+
+    .center-section{
+        margin-top: 6rem;
+    }
+
+    .center-section h1{
+        font-size: 1.9rem;
+        font-weight: 750;
+    }
+
+    .center-section p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .heading h3{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .get-started input{
+        padding: 1rem 0rem 1rem 1rem;
+        font-size: 1rem;
+        min-width: 15rem;
+    }
+    
+    .get-started button{
+        padding: 0.8rem 2rem 1rem 2rem;
+        height:3.6rem;
+        width: auto;
+        font-weight: 550;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+        margin-top: 0;
+    }
+
+    .tv-section, .watch-everywhere{
+        flex-direction: column;
+        width: 98%;
+        text-align: center;
+    }
+
+    .tv-section div, .watch-everywhere div, .child-section div{
+        width: 90%;
+    }
+
+    .enjoy h2, .watch h2, .text h2, .child2 h2{
+        font-size: 2rem;
+        font-weight: 700;    
+    }
+
+    .enjoy p, .watch p, .text p, .child2 p{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .mobile-section{
+        width: 98%;
+        text-align: center;
+    }
+
+    .child-section{
+        flex-direction: column-reverse;
+        width: 98%;
+        text-align: center;
+    }
+
+    .mobile-section{
+        flex-direction: column-reverse;
+    }
+
+    .mobile, .text{
+        width: 90%;
+    }
+}
